@@ -1,0 +1,76 @@
+@font-face {
+    font-family: VT323;
+    src: url(../fonts/VT323.ttf);
+}
+
+body  {
+  background-image: url("../images/overworld.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  font-family: VT323;
+  letter-spacing: 1px;
+  font-size:20;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightblue;
+}
+
+.Base {
+  align: center;
+  width:750px;
+  font-size:20;
+  
+  background-color:rgba(20,12,28,0.85);
+  color: white;
+  border-radius: 20px;
+  border:solid 5px;
+  margin: auto;
+  padding: 2%;
+}
+
+.HeaderButton {
+    background-color: rgb(223,239,215);
+    color: rgb(20,12,28);
+    border: 3px solid rgb(20,12,28);
+    width: 110px;
+    height: 30px;
+    
+    font-family: VT323;
+    font-size: 16;
+    
+    text-align:center;
+    font-style:bold;
+}
+
+.HeaderButton:hover {
+	background-color: rgb(20,12,28); 
+	color: rgb(223,239,215);
+  transform: scale(1.1, 1.1);
+}
+
+.Social{
+text-align: center ;
+}
+
+.Social a img:hover {
+  transform: scale(1.25, 1.25);
+}
+
+.ImageBox {
+  border:3px solid white;
+  float:right;
+  margin:10px;
+}
