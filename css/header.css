@@ -134,6 +134,25 @@ text-align: center ;
   transform: scale(-1, 1);
 }
 
-.condensed {
-  line-height: 50%;
+.textalign-center {
+  text-align: center;
+  overflow: auto;
+}
+
+.about-column {
+    text-align: center;
+    width: 240px;
+    margin: 20px;
+    margin-top: 0;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.about-column h1 {
+  line-height: 0%;
+}
+
+.about-column h3 {
+  line-height: 0%;
 }
